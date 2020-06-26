@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Rosbisnessoft
 {
-    public partial class Form1 : Form
+    public partial class FormNastr : Form
     {
-        public Form1()
+        public FormNastr()
         {
             InitializeComponent();
+        }
+
+        private void buttonConsultation_Click(object sender, EventArgs e)
+        {
+            Form formConsultation = new FormConsultation();
+            formConsultation.Show();
         }
     }
 }

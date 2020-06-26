@@ -8,6 +8,7 @@ namespace Rosbisnessoft
 {
     static class Program
     {
+        public static РосбизнессофтEntities росбизнессофт = new РосбизнессофтEntities();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -16,7 +17,7 @@ namespace Rosbisnessoft
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormAuthorization());
         }
     }
 }
